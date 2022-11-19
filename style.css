@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+/**********HOMEPAGE*********/
+.google_homepage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/**********TOPBAR*********/
+.topbar {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.topbar1 {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.topbar1_inside {
+    min-width: auto;
+    height: 48px;
+    position: relative;
+}
+
+.topbar_rigt {
+    float: right;
+    display: flex;
+    padding-left: 32px;
+    box-sizing: border-box;
+    height: 48px;
+    padding: 0 4px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    padding-top: 10px;
+
+}
+
+.bos {
+    display: block;
+    white-space: nowrap;
+}
+
+.right_left {
+    padding-right: 15px;
+    display: block;
+}
+
+.gmail {
+    display: inline-block;
+    padding-left: 15px;
+    white-space: nowrap;
+}
+
+.bilder {
+    display: inline-block;
+    padding-left: 15px;
+    white-space: nowrap;
+}
+
+.right_right {
+    float: right;
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+}
+
+.uygulamalar {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.profile{
+    padding: 5px;
+    margin: 0 5px;
+}
+
+
+.App_button {
+    width: 20px;
+}
+
+.Pro_pic {
+    width: 25px;
+    border-radius: 50%;
+}
+
+
+/**********LOGO-AREA*********/
+.logo_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+/**********GOOGLE-SEARCH*********/
+
+.google_search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+
+.search_engine_inside{
+    height: 44px;
+    max-width: 584px;
+    border: 1px solid;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.lens_p {
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+.voice{
+    max-width: 40px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px
+}
+
+.button_inside {
+    font-size: 2em;
+    margin: 5px;
+}
+
+/**********EMPTY-PLACE*********/
+.empty_place {
+    min-height: 400px;
+}
+
+/**********BOTTOMBAR*********/
+
+.bottombar_inside {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
